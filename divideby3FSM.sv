@@ -22,6 +22,6 @@ module divideby3FSM(
     endcase
 
   // output logic
-  assign y = (state = = S0);
+  assign y = (state == S0);
 
 endmodule

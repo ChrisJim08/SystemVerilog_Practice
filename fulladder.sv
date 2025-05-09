@@ -7,7 +7,7 @@ module fulladder(
 
   logic p, g;
 
-  always_comb //always @(a, b, cin)
+  always_comb
     begin
       p = a ^ b;
       g = a & b;
